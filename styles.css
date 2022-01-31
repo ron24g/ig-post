@@ -1,0 +1,41 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+.content{
+    background-color: white;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 400px;
+    height: 550px;
+
+    
+}
+
+.header{
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+div.icons far fa-bookmark{
+    color: red;
+}
+
+.postname{
+    font-size: 13px;
+    color: red;
+    display:inline-block;
+    height: 50px;
+}
